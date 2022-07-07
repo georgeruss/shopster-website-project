@@ -1,0 +1,490 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+hr {
+    max-width: 95%;
+}
+
+li {
+    float: left;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    color: black;
+    font-size: larger;
+}
+
+li a:hover {
+    background-color: #d9b13b;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+    background-color: #f5c842;
+}
+
+nav img {
+    display: block;
+    margin: auto;
+}
+
+* {
+    font-family: 'Oswald';
+
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.todayHeader {
+    background-color: #f5c842;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 2px 0 2px 0;
+    border: 3px solid white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.checkoutCon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkoutButt {
+    border-radius: 25px;
+    background-color: #f5c842;
+    padding: 1em 1em 1em 1em;
+    width: fit-content;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    justify-self: flex-end;
+}
+
+.checkoutButt:hover {
+    background-color: #d9b13b;
+}
+
+.todayDeal {
+    background-color: gray;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    /* max-height: 600px; */
+    background-color: hsla(200, 40%, 30%, .4);
+    background-image: url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'), url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'), url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'), url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 0 20%, 0 100%, 0 50%, 0 100%, 0 0;
+    background-size: 2500px, 800px, 500px 200px, 1000px, 400px 260px;
+    animation: 50s para infinite linear;
+    min-height: 100vh;
+}
+
+.itemDisplayContainer {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 0;
+    width: 90%;
+}
+
+.itemDisplayContainer img {
+    height: 160px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.itemDisplayContainer .dealItem {
+    margin: 2em 2em 2em 2em;
+}
+
+.dealItem {
+    background-color: #f5c842;
+    padding: 3px;
+    box-shadow: 1px 3px 5px rgb(0 0 0 / 0.5);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+html {
+    background: #ded8c1;
+    margin: 0;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px 0 3px 0;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.loginWindow {
+    border: 2px solid black;
+    width: 30%;
+    padding: 1em 2em 3em 2em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3em;
+    margin-top: 1vh;
+    background-color: #fcfaf2;
+    flex-direction: column;
+    align-items: center;
+}
+
+#register-form {
+    margin: auto;
+    width: 90%;
+}
+
+.loginForm {
+    margin: auto;
+    width: 90%;
+}
+
+.loginWindow label {
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.loginWindow input {
+    width: 50%;
+}
+.form-group p{
+    margin: 5px 0;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+#forgotPwd {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+.loginWindow button {
+    height: 40px;
+}
+
+.buttonBox {
+    margin-top: 1em;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin:auto;
+}
+
+.toggleContainer {
+    width: 90%;
+    margin-bottom: 3em;
+    align-items: baseline;
+}
+
+.toggleContainer button {
+    border: 2px solid transparent;
+    border-bottom: 2px solid #e0e0e0;
+    color: #616161;
+    padding: 20px;
+    font-size: large;
+    width: 49%;
+    height: fit-content;
+    margin: 0;
+}
+
+button a {
+    text-decoration: none;
+    color: #616161;
+}
+
+.toggleButton:hover {
+    background-color: #f5c842;
+}
+
+.toggleButton:active {
+    box-shadow: 0 2px gainsboro;
+    transform: translateY(2px);
+}
+
+.todayHeader {
+    font-weight: 580;
+    font-size: larger;
+    display: block;
+}
+
+.submittButton {
+    transition: 0.5s;
+    border: none;
+    width: 400px;
+}
+
+.submittButton:hover {
+    box-shadow: inset 400px 0 0 0 #f5c842;
+}
+
+.originalPrice {
+    color: #8f8f8c;
+}
+
+.productMain {
+    display: flex;
+    justify-content:space-between;
+}
+
+.catDropDown {
+    background-color: #f5c842;
+    width: 20%;
+    margin-top: 3em;
+    padding: 1em 0 0.5em 1em;
+    border-radius: 20px;
+    margin-right: 1em;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    height: min-content;
+    position: sticky;
+    top: 0;
+}
+
+.catDropDown select {
+    width: 50%;
+    margin-left: 2em;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.filter select {
+    margin-right: 10px;
+}
+
+.filterSubmitt button {
+    margin: 1em auto;
+    display: block;
+}
+
+.itemDisplay {
+    background-color: white;
+    width: 99%;
+    margin: auto;
+    height: 100%;
+    /* max-height: 600px; */
+    min-height: 100vh;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+
+}
+
+.itemDisplay span {
+    font-size: smaller;
+}
+
+.itemDes {
+    box-shadow: 3px 5px 10px black;
+    border: 2px solid white;
+    background-color: #f5c842;
+    padding: 2px 0 2px 0;
+}
+
+.itemDes h1,
+span {
+    margin: auto;
+    width: 95%;
+}
+
+.singleItemDisplay {
+    width: 70%;
+    margin: auto;
+}
+
+.itemPic {
+    height: 40vh;
+    width: 49%;
+}
+
+.picContain {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background:
+        linear-gradient(to right, black 4px, transparent 4px) 0 0,
+        linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+        linear-gradient(to left, black 4px, transparent 4px) 100% 0,
+        linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+        linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
+        linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
+        linear-gradient(to top, black 4px, transparent 4px) 0 100%,
+        linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.itemPic img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    background-color: white;
+}
+
+.itemDiv {
+    width: 70%;
+    margin: auto;
+    background-color: #f5c842;
+    border: 2px solid #333;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../image/wood-pattern.png);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+.itemText {
+    width: 49%;
+    margin: 0;
+}
+
+.itemText h1 {
+    margin: 0 0 0.5em 0;
+}
+
+.itemText p {
+    max-width: 80%;
+}
+
+.quantity {
+    display: flex;
+}
+
+.counter {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 32px;
+    border: 2px solid black;
+    background-color: white;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+.counter button {
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    height: 3em;
+    width: 3em;
+    font-weight: 200 !important;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.counter button:active,
+.counter button:hover {
+    background-color: #f5c842;
+    color: white;
+}
+
+.counter input {
+    height: 50%;
+    align-self: center;
+}
+
+.button2 {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid black;
+    margin-top: 1em;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: larger;
+    background-color: white;
+    left: 50%;
+    transition: all 0.2s;
+    width: 50%;
+    margin-right: 2em;
+}
+
+.button2:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.backButton {
+    border-radius: 25px;
+    background-color: #f5c842;
+    padding: 1em 1em 1em 1em;
+    width: 5em;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    border: none;
+    height: fit-content;
+}
+
+.button2 {
+    transition: 0.7s;
+}
+
+.button2:hover {
+    box-shadow: inset 500px 0 0 0 #f5c842;
+}
+
+.aboutDiv {
+    margin: 0.5em auto;
+    background-color: #f5c842;
+    width: 80%;
+    text-align: center;
+    padding: 2px 0 2px 0;
+    border: 2px solid white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+ nav{
+    background-image: url("../image/scar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
