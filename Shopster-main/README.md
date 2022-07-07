@@ -1,3 +1,5 @@
+***** [DISCLAIMER] THIS IS A WEBSITE PROJECT BETWEEN A GROUP OF FRIENDS: Zongxin Ouyang, George Landyn Russell, Logan Whitley, and Matthew Morris *****
+
 == ENTRY POINT  == 
 
 Shopster-main/src/index.html
